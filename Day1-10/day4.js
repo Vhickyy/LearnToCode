@@ -8,7 +8,7 @@ if(condition){
     console.log("I don't know your name");
 }
 
-condition = true;
+condition = false;
 // condition evaluates to false
 if(condition){
     // This code won't run
