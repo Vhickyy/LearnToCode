@@ -15,7 +15,7 @@ console.log(sameNumbers);
 // true
 
 const sameNumbers2 = 4 === "4";
-console.log(sameNumbers);
+console.log(sameNumbers2);
 // false
 
 // Tertiary operators: Conditional operation
