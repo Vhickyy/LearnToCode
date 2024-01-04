@@ -18,7 +18,7 @@ console.log(girl.name);
 console.log(girl.height);
 // 6ft
 const oddNumber = "odd"
-console.log(girl.favFood[oddNumber]);
+console.log(girl.favNumbers[oddNumber]);
 // 1
 const dinner = girl.favFood.dinner
 console.log(dinner);
