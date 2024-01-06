@@ -3,7 +3,7 @@ const countries = ["Ghana", "Kenya", "Nigeria", "Italy", "Canada"];
 
 const [firstCountry, secondCountry, ,fouthCounytry] = countries;
 console.log(firstCountry);
-// Nigeria
+// Ghana
 console.log(secondCountry);
 // Kenya
 console.log(fouthCounytry);
