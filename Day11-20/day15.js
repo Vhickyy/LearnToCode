@@ -1,4 +1,4 @@
-// ...spread
+// Spread Syntax
 const girls = ["Victoroia","Cynthia"];
 const boys = ["James","Peter"];
 const students = [...girls,...boys];
