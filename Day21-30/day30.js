@@ -9,12 +9,13 @@ const obj = {
         console.log(this.name);
     },
     getThis() {
-        const getter = () => this;
+        const getter = () => {
+            console.log(this.name);
+            return this
+        };
         return getter;
     },
 }
-
-
 obj.normalFn()
 // {normalFn: ƒ, arrowFn: ƒ, getThis: ƒ}
 // Victoria
@@ -22,7 +23,7 @@ obj.normalFn()
 obj.arrowFn()
 // globalThis
 // 
-
 const result = obj.getThis();
 console.log(result());
+// Victoria
 // {normalFn: ƒ, arrowFn: ƒ, getThis: ƒ}
