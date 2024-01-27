@@ -15,3 +15,7 @@ console.log(increaseNum());
 // 2
 console.log(increaseNum());
 // 3
+console.log(increaseNum());
+// 4
+console.log(increaseNum());
+// 5
