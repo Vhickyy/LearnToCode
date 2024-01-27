@@ -15,3 +15,4 @@ function addAll(...numbers){
 }
 console.log(addAll(1,2,3,4,5));
 // 15
+
